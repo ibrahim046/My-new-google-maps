@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My New Google Maps</title>
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlufoE1CckG4wwoYZTj2uqzt3DoQQgYBk"> </script>
+</head>
+<body>
+  <app-root></app-root>
+  <google-map 
+  height ="500px"
+  width="100%"
+  [zoom]="zoom"
+  [center]="center"
+  [options]="options">
+  </google-map>
+ 
+</body>
+</html>
